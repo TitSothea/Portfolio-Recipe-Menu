@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem; 
+}
+p{
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+hr{
+    margin: 0.7rem 0;
+}
+li{
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.7rem;
+}
+.main{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    max-width: 36rem;
+}
+
+/* Section 1 */
+
+.top h1{
+    margin-top: 0.7rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.top p{
+    margin: 0.5rem 0;
+}
+.container{
+    width: 100%;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 0.7rem;
+}
+.h2{
+    font-size: 15px;
+    color: purple
+}
+.description{
+    padding: 0.7rem;
+    line-height: 1.7rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.description .list1{
+    margin-left: 2rem;
+}
+span{
+    font-weight: bold;
+}
+
+/* Section 2 */
+
+.list-ingredients h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0.7rem 0;
+    color: brown;
+}
+.section-2 ul{
+    margin-top: -0.5rem;
+    padding: 0.3rem;
+    margin-left: 0.7rem;
+    line-height: 1.7rem;
+}
+
+/* Section 3 */
+
+.section-3 .Instuc{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0.7rem 0;
+    color: brown;
+}
+.section-3 ol{
+    margin-top: -0.5rem;
+    padding: 0.3rem;
+    margin-left: 0.7rem;
+    line-height: 1.5rem;
+}
+/* Section 4 */
+.section-4 .nutri{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0.7rem 0;
+    color: brown;
+}
+.section-4 .group-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+
+}
+#weight{
+    margin-right: 9rem;
+    color: brown;
+    font-weight: 700;
+}
+#item{
+    margin-left: 4rem;
+}
+
